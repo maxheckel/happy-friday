@@ -5,3 +5,4 @@ var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", 
 days.splice(n-1, 1)
 var day = days[Math.floor(Math.random() * days.length)]
 document.getElementById("day").innerHTML = day
+document.title = "Happy "+day
